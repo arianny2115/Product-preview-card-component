@@ -8,6 +8,7 @@
   
   <title>Frontend Mentor | Product preview card component</title>
   <link rel="stylesheet" href="style/style.css" media="all">
+  <link rel="stylesheet" href="style/desktop.css" media="screen and (min-width: 992px)">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -17,7 +18,10 @@
 </head>
 <body>
   <main id="conteiner">
-    <img src="images/image-product-mobile.jpg" alt="">
+    <picture>
+      <source media="(max-width:992px)" srcset="images/image-product-mobile.jpg">
+      <img src="images/image-product-desktop.jpg" alt="perfume">
+    </picture>
     <section id="text"> 
       <p id="perfume">Perfume</p>
       <h1>Gabrielle Essence Eau De Parfum</h1>

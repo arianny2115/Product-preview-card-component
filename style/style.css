@@ -19,7 +19,7 @@ main#conteiner {
     border-radius: 10px;
     background-color: white;
 }
-main#conteiner > img {
+main#conteiner > picture > img {
     border-radius: 10px 10px 0px 0px;
     width: 340px;
     height: 240px;

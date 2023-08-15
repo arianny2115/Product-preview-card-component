@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  
+}
+main#conteiner {
+   display: flex;
+   flex-direction: row;
+    height: 500px;
+    width: 700px;
+    
+}
+main#conteiner > picture > img {
+    border-radius: 10px 0px 0px 10px;
+    width: 350px;
+    height: 500px;
+}
+main#conteiner > section#text {
+    margin: 25px;
+}
+main#conteiner > section#text > h1 {
+    font-size: 2.2em;
+}
+main#conteiner > section#text > p#center {
+    line-height: 30px;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+main#conteiner> section#text > div#number{
+    font-size: 1.6em;
+    margin-bottom: 30px;
+    
+}
+
